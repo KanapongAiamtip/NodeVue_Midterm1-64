@@ -1,5 +1,4 @@
-const {User} = require("../models");
-
+const {User} = require("../Short");
 module.exports = {
     //get all user
     async index(req,res){
